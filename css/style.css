@@ -1,17 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-.body {
-    width: 100%;
-    height: 1000px;
-}
+
 .big-image {
-    width: 500px;
-    height: 500px;
-    background-image: url("assets/img/your_verse_hero.jpg");
+  width: 80%;
+  height: 66vh;
+  background-image: url("/assets/img/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 140vh;
+  background-position: 0 -75vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Grande";
+  font-weight: normal;
+}
 
+.paragraph {
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+}
+
+.image-container {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    grid-auto-flow: column;
 }
