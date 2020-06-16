@@ -1,10 +1,9 @@
-# 
+# Old Apple Website Clone
 
-![screenshot](assets/img/screenshot-nytclone.png)
+![screenshot](assets/img/sreenshot-old-apple.png)
 
 
-This page is a clone of newyork times article. In this project we applied float,
- flexbox, grid and position.
+This page is a clone of the old apple website. In this project we applied flexbox, backgrounds, gradients and grid.
 
 ## Built With
 
@@ -13,7 +12,7 @@ This page is a clone of newyork times article. In this project we applied float,
 
 ## Live Demo
 
-[Live Demo Link](https://eager-yalow-5396ee.netlify.app)
+[Live Demo Link](https://compassionate-thompson-502b28.netlify.app/)
 
 
 ## Getting Started
@@ -44,7 +43,7 @@ This page is a clone of newyork times article. In this project we applied float,
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ershadul1/nytimes-clone/issues).
+Feel free to check the [issues page](https://github.com/Haywhizzz/Old-Apple-clone/issues).
 
 ## Show your support
 
@@ -52,7 +51,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks to newyork times for inspiring us.
+Thanks to Microverse for inspiring us.
 
 ## 📝 License
 
