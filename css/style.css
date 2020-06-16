@@ -62,12 +62,12 @@ nav div:nth-child(1) {
 }
 
 .big-image {
-  width: 100vw;
-  height: 65vh;
+  width: 1440px;
+  height: 640px;
   background-image: url("/assets/img/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -950px;
+  background-position: 0 -650px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -105,8 +105,7 @@ nav div:nth-child(1) {
 
 .image-container {
     display: grid;
-    width: 100vw;
-   
+    width: 1440px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     margin: 0 auto;
@@ -114,8 +113,7 @@ nav div:nth-child(1) {
 }
 
 .image-box img {
-  width: 25vw;
-  height: 25vh;
+  width: 360px;
 }
 
 .left-side p {
