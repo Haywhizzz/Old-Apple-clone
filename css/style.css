@@ -28,7 +28,7 @@ nav {
   display: block;
   width: 25px;
   height: 25px;
-  margin-top: -8px;
+  margin-top: 8px;
   margin-left: 15px;
 }
 
@@ -36,7 +36,7 @@ nav > div > a {
   display: block;
   text-decoration: none;
   color: white;
-  margin-top: 14px;
+  margin-top: 8px;
   margin-right: 25px;
 }
 
@@ -72,13 +72,33 @@ nav div:nth-child(1) {
   align-items: center;
   font-weight: normal;
 }
-
+.big-image-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+.big-image-caption p, .big-image-caption a{
+  width: 100%;
+}
 .paragraph {
     font-size: 60px;
     color: white;
     font-family: 'Lato', sans-serif;
 
 }
+
+.paragraph2 {
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.paragraph3 {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 
 .image-container {
     display: grid;
