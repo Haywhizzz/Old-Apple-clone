@@ -5,6 +5,17 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+nav {
+  position: absolute;
+  left: 410px;
+  top: 65px;
+  width: 1100px;
+  height: 50px;
+  background: #466368;
+  background: -webkit-linear-gradient(#737373 50%, #5e5e5e  , #707070 , #8d8d8d 50%);
+  background:    -moz-linear-gradient(#737373 50%, #5e5e5e , #707070 , #8d8d8d 50%);
+  background:         linear-gradient(#737373 50%, #5e5e5e , #707070 , #8d8d8d 50%);
+}
 
 .big-image {
   width: 1440px;
