@@ -11,7 +11,7 @@
   height: 640px;
   background-image: url("/assets/img/your_verse_hero.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 140vh;
+  background-size: 100%;
   background-position: 0 -650px;
   margin: 0 auto;
   display: flex;
@@ -29,9 +29,20 @@
 
 .image-container {
     display: grid;
-    width: 80%;
+    width: 1440px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     margin: 0 auto;
     grid-auto-flow: column;
+}
+.image-box img {
+  width: 360px;
+}
+.left-side p {
+  font-size: 10px;
+}
+.footer-list {
+  list-style-type: none;
+  font-size: 10px;
+  
 }
