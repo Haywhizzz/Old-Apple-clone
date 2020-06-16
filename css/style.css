@@ -43,6 +43,7 @@ nav > div > a {
 nav div:nth-child(1) {
   width: 80px ;
 }
+
 .fa-search {
   color: white;
 }
@@ -51,6 +52,7 @@ nav div:nth-child(1) {
   margin-top: 8px;
   margin-right: 25px;
 }
+
 .search {
   width: 100px;
   height: 25px;
@@ -70,17 +72,18 @@ nav div:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: normal;
 }
-.big-image-caption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: normal;
-}
-.big-image-caption p, .big-image-caption a{
+
+.big-image-caption *{
   width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
+
+.fa-play-circle {
+  width: 30px;
+}
+
 .paragraph {
     font-size: 60px;
     color: white;
@@ -93,12 +96,12 @@ nav div:nth-child(1) {
     color: white;
     font-weight: lighter;
 }
+
 .paragraph3 {
   font-size: 20px;
   color: white;
   text-decoration: none;
 }
-
 
 .image-container {
     display: grid;
@@ -108,9 +111,11 @@ nav div:nth-child(1) {
     margin: 0 auto;
     grid-auto-flow: column;
 }
+
 .image-box img {
   width: 360px;
 }
+
 .left-side p {
   font-size: 10px;
   margin-top: 20px;
@@ -129,6 +134,7 @@ footer {
   width: 1100px;
   justify-content: space-between;
 }
+
 .footer-list {
   list-style-type: none;
   font-size: 12px;
