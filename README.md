@@ -29,15 +29,15 @@ This page is a clone of the old apple website. In this project we applied flexbo
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/ershadul1)
-- Twitter: [@twitterhandle](https://twitter.com/ErshadulRayhan)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
+- Github: [@ershadul1](https://github.com/ershadul1)
+- Twitter: [@ErshadulRayhan](https://twitter.com/ErshadulRayhan)
+- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/Haywhizzz )
-- Twitter: [@twitterhandle](https://twitter.com/Haywhizzz)
-- Linkedin: [linkedin](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
+- Github: [@Haywhizzz](https://github.com/Haywhizzz )
+- Twitter: [@Haywhizzz](https://twitter.com/Haywhizzz)
+- Linkedin: [Haywhizzz](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
 
 ## 🤝 Contributing
 
