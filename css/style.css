@@ -5,76 +5,96 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-nav {
-  position: absolute;
-  left: calc((100vw - 950px) / 2);
-  top: 8vh;
-  width: 950px;
-  height: 40px;
-  background: #466368;
-  background: -webkit-linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d );
-  background:    -moz-linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d );
-  background:         linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d );
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-evenly;
+body {
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-.right-border {
-  border-right: 1px solid gray;
+nav {
+  position: absolute;
+  left: calc((100vw - 70%) / 2);
+  top: 8vh;
+  width: 65%;
+  height: 40px;
+  background: #466368;
+  background: -webkit-linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d);
+  background: -moz-linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d);
+  background: linear-gradient(#737373, #5e5e5e  50%, #707070 50%, #8d8d8d);
+  border-radius: 5px;
+  display: flex;
+}
+
+nav > div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > div:hover {
+  background-color: rgb(90, 90, 90);
 }
 
 .apple-logo {
   display: block;
   width: 25px;
   height: 25px;
-  margin-top: 8px;
-  margin-left: 15px;
 }
 
 nav > div > a {
-  display: block;
   text-decoration: none;
   color: white;
-  margin-top: 8px;
-  margin-right: 25px;
-}
-
-nav div:nth-child(1) {
-  width: 80px ;
 }
 
 .fa-search {
   color: white;
 }
 
-.search-box {
-  margin-top: 8px;
-  margin-right: 25px;
-}
-
 .search {
   width: 100px;
-  height: 25px;
-  border-radius: 10px;
+  height: 30px;
+  border-radius: 20px;
   background-color: inherit;
-  margin-left: -30px;
+  transition: width 0.3s ease-in-out;
+}
+
+.search-icon {
+  margin-left: -90px;
+  margin-right: 60px;
+}
+
+.search:focus {
+  width: 160px;
+  background-color: white;
+  padding-left: 30px;
+  background-image: url("/assets/img/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 5px;
+}
+
+.search:focus > .fa-search {
+  color: #6e6e6e;
+}
+
+.right-border {
+  border-right: 1px solid gray;
 }
 
 .big-image {
-  width: 100vw;
+  width: 100%;
   height: 65vh;
   background-image: url("/assets/img/your_verse_hero.jpg");
   background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: 100%;
-  background-position: 0 -950px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.big-image-caption *{
+.big-image-caption * {
   width: 100%;
   text-align: center;
   margin-top: 20px;
@@ -85,32 +105,37 @@ nav div:nth-child(1) {
 }
 
 .paragraph {
-    font-size: 60px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-
+  font-size: 60px;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .paragraph2 {
-    font-size: 30px;
-    color: white;
-    font-weight: lighter;
+  font-size: 35px;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
 }
 
 .paragraph3 {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.paragraph3:hover {
+  text-decoration: underline;
 }
 
 .image-container {
-    display: grid;
-    width: 100vw;
-   
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    margin: 0 auto;
-    grid-auto-flow: column;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  margin: 0 auto;
+  grid-auto-flow: column;
+  grid-gap: 1px;
 }
 
 .image-box img {
@@ -146,7 +171,6 @@ footer {
 
 .footer-list li {
   display: inline;
-  
 }
 
 .footer-list li a {
